@@ -3,7 +3,7 @@ import _ from 'lodash'
 import errorHandler from './../helpers/dbErrorHandler'
 import formidable from 'formidable'
 import fs from 'fs'
-import profileImage from './../../client/assets/images/profile-pic.png'
+import profileImage from './../../client/assets/images/profile-pic.jpg'
 
 const create = (req, res, next) => {
   const user = new User(req.body)
