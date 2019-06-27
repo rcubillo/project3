@@ -6,7 +6,7 @@ import Signup from './user/Signup'
 import Signin from './auth/Signin'
 import EditProfile from './user/EditProfile'
 import Profile from './user/Profile'
-import PrivateRoute from './auth/PrivateRoute'
+import PrivateRoute from './auth/privateRoute'
 import Menu from './core/Menu'
 
 class MainRouter extends Component {
