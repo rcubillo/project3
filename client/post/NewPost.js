@@ -11,6 +11,10 @@ import {create} from './api-post.js'
 import auth from './../auth/auth-helper'
 import IconButton from 'material-ui/IconButton'
 import PhotoCamera from 'material-ui-icons/PhotoCamera'
+import Videocam from 'material-ui-icons/Videocam'
+import { Link } from 'react-router';
+import App from '../youtube/App';
+
 
 const styles = theme => ({
   root: {
@@ -119,6 +123,12 @@ class NewPost extends Component {
               {this.state.error}
             </Typography>)
         }
+          {/* <Link to= {""}> */}
+          <IconButton color="secondary" className={classes.photoButton} >
+            <Videocam />
+          </IconButton>
+          {/* </Link> */}
+
       </CardContent>
       <CardActions>
         <Button color="primary" variant="raised" disabled={this.state.text === ''} onClick={this.clickPost} className={classes.submit}>POST</Button>
