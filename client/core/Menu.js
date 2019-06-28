@@ -4,6 +4,8 @@ import Toolbar from 'material-ui/Toolbar'
 import Typography from 'material-ui/Typography'
 import IconButton from 'material-ui/IconButton'
 import HomeIcon from 'material-ui-icons/Home'
+import videoIcon from 'material-ui-icons/MusicVideo'
+
 import Button from 'material-ui/Button'
 import auth from './../auth/auth-helper'
 import {Link, withRouter} from 'react-router-dom'
@@ -25,6 +27,15 @@ const Menu = withRouter(({history}) => (
           <HomeIcon/>
         </IconButton>
       </Link>
+      <Link to="/cityEvents">
+            <Button style={isActive(history, "/cityEvents")}>cityEvents
+            </Button>
+          </Link>
+          <Link to="/videos">
+            <Button  style={isActive(history, "/videos")}>videos
+            
+            </Button>
+          </Link>
       {
         !auth.isAuthenticated() && (<span>
           <Link to="/signup">
