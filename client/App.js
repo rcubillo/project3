@@ -9,10 +9,10 @@ import { hot } from 'react-hot-loader'
 const theme = createMuiTheme({
   palette: {
     primary: {
-    light: '#52c7b8',
-    main: '#009688',
-    dark: '#00675b',
-    contrastText: '#fff',
+      light: '#5281c7',
+      main: '#005f96',
+      dark: '#003067',
+      contrastText: '#fff',
   },
   secondary: {
     light: '#5281c7',
@@ -22,7 +22,7 @@ const theme = createMuiTheme({
   },
     openTitle: teal['700'],
     protectedTitle: orange['700'],
-    type: 'dark'
+    type: 'light'
   }
 })
 
