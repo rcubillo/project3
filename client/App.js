@@ -2,7 +2,7 @@ import React from 'react'
 import MainRouter from './MainRouter'
 import {BrowserRouter} from 'react-router-dom'
 import {MuiThemeProvider, createMuiTheme} from 'material-ui/styles'
-import {teal, orange} from 'material-ui/colors'
+import { orange, teal} from 'material-ui/colors'
 import { hot } from 'react-hot-loader'
 
 // Create a theme instance.
@@ -15,14 +15,14 @@ const theme = createMuiTheme({
     contrastText: '#fff',
   },
   secondary: {
-    light: '#ffd95b',
-    main: '#ffa726',
-    dark: '#c77800',
+    light: '#5281c7',
+   main: '#005f96',
+   dark: '#003067',
     contrastText: '#000',
   },
     openTitle: teal['700'],
     protectedTitle: orange['700'],
-    type: 'light'
+    type: 'dark'
   }
 })
 
