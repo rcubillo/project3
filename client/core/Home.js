@@ -16,7 +16,7 @@ const styles = theme => ({
     margin: 30,
   },
   card: {
-    maxWidth: 600,
+    maxWidth: 1200,
     margin: 'auto',
     marginTop: theme.spacing.unit * 5
   },
@@ -60,7 +60,7 @@ class Home extends Component {
                 <CardMedia className={classes.media} image={seashellImg} title="Unicorn Shells"/>
                 <CardContent>
                   <Typography type="body1" component="p">
-                    Welcome to the MERN Social home page. 
+                    Welcome to the NashBook home page. 
                   </Typography>
                 </CardContent>
               </Card>
