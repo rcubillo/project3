@@ -1,9 +1,10 @@
 import React from 'react';
 import SearchBar from './Searchbar';
-import youtube from './apis/youtube';
+import youtube, {KEY} from './apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
+ 
 class Youtube extends React.Component {
     state = {
         videos: [],
@@ -12,7 +13,10 @@ class Youtube extends React.Component {
     handleSubmit = async (termFromSearchBar) => {
         const response = await youtube.get('/search', {
             params: {
-                q: termFromSearchBar
+                part: 'snippet',
+                q: termFromSearchBar,
+                maxResults: 5,
+                key: KEY
             }
         })
         this.setState({

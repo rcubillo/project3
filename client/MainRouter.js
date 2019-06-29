@@ -9,6 +9,7 @@ import Profile from './user/Profile'
 import PrivateRoute from './auth/privateRoute'
 import Menu from './core/Menu'
 import Youtube from './Youtube/Youtube'
+import Footer from './footer/Footer'
 
 class MainRouter extends Component {
   // Removes the server-side injected CSS when React component mounts
@@ -31,6 +32,7 @@ class MainRouter extends Component {
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
       </Switch>
+      <Footer/>
     </div>)
   }
 }
