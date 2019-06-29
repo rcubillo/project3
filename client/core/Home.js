@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import {withStyles} from 'material-ui/styles'
-import Card, {CardContent, CardMedia} from 'material-ui/Card'
+import Card, { CardMedia} from 'material-ui/Card'
 import Typography from 'material-ui/Typography'
 import seashellImg from './../assets/images/nashbook.jpg'
 import {Link} from 'react-router-dom'
@@ -22,7 +22,8 @@ const styles = theme => ({
   },
   title: {
     padding:`${theme.spacing.unit * 3}px ${theme.spacing.unit * 2.5}px ${theme.spacing.unit * 2}px`,
-    color: theme.palette.text.secondary
+    color: theme.palette.text.secondary,
+    textAlign: 'center',
   },
   media: {
     minHeight: 330
@@ -55,14 +56,10 @@ class Home extends Component {
             <Grid item xs={12}>
               <Card className={classes.card}>
                 <Typography type="headline" component="h2" className={classes.title}>
-                  Home Page
+                  Welcome to Nashbook, best place to make friends!!!!
                 </Typography>
                 <CardMedia className={classes.media} image={seashellImg} title="Unicorn Shells"/>
-                <CardContent>
-                  <Typography type="body1" component="p">
-                    Welcome to the NashBook home page. 
-                  </Typography>
-                </CardContent>
+            
               </Card>
             </Grid>
           </Grid>
