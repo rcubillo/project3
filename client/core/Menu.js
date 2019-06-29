@@ -53,7 +53,7 @@ const Menu = withRouter(({history}) => (
             </Button>
           </Link>
 
-          <Link to={"/videos" + auth.isAuthenticated().user._id}>
+          <Link to={"/videos"}>
             <Button  style={isActive(history, "/videos")}>videos
             </Button>
           </Link>
