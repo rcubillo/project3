@@ -21,12 +21,17 @@ const styles = theme => ({
     marginTop: theme.spacing.unit * 5
   },
   title: {
-    padding:`${theme.spacing.unit * 3}px ${theme.spacing.unit * 2.5}px ${theme.spacing.unit * 2}px`,
-    color: theme.palette.text.secondary
+    padding:`${theme.spacing.unit * 5}px ${theme.spacing.unit * 2.5}px ${theme.spacing.unit * 2}px`,
+    color: theme.palette.text.secondary,
+    textAlign:'center',
+    fontSize: 'large',
+  
+    
   },
   media: {
     minHeight: 330
-  }
+  },
+  
 })
 
 class Home extends Component {
@@ -54,15 +59,11 @@ class Home extends Component {
           <Grid container spacing={24}>
             <Grid item xs={12}>
               <Card className={classes.card}>
-                <Typography type="headline" component="h2" className={classes.title}>
-                  Home Page
+                <Typography type="headline" component="h1" className={classes.title}>
+                Welcome to the NashBook home page. 
                 </Typography>
                 <CardMedia className={classes.media} image={seashellImg} title="Unicorn Shells"/>
-                <CardContent>
-                  <Typography type="body1" component="p">
-                    Welcome to the NashBook home page. 
-                  </Typography>
-                </CardContent>
+                
               </Card>
             </Grid>
           </Grid>
