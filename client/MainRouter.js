@@ -10,6 +10,7 @@ import PrivateRoute from './auth/privateRoute'
 import Menu from './core/Menu'
 import Youtube from './Youtube/Youtube'
 import Footer from './footer/Footer'
+import events from './events/eventApp'
 
 class MainRouter extends Component {
   // Removes the server-side injected CSS when React component mounts
@@ -29,6 +30,7 @@ class MainRouter extends Component {
         <Route path="/signup" component={Signup}/>
         <Route path="/signin" component={Signin}/>
         <Route path="/videos" component={Youtube}/>
+        <Route path="/cityEvents" component={eventApp}/>
         <PrivateRoute path="/user/edit/:userId" component={EditProfile}/>
         <Route path="/user/:userId" component={Profile}/>
       </Switch>
