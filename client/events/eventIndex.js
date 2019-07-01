@@ -1,14 +1,16 @@
 import React from 'react';
-import eventIndex from 'eventIndex'
+import ReactDOM from 'react-dom';
+import eventIndex from 'eventIndex';
+import '../core/Menu'
 
-import eventApp from './eventApp';
+import './eventApp';
 
-const eventIndex = ({cityEvents , handleEventSelect}) => {
+const eventIndex = ({cityEvents}) => {
     return (
-        <div onClick={ () => handleEventSelect(cityEvents)} className=' video-item item'>
+        <div onClick={ () =>(cityEvents)}>
             
             <div className='content'>
-                <div className='header '>bal aan eego</div>
+               ReactDOM.render(<eventApp />)
             </div>
         </div>
     )
