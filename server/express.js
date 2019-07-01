@@ -53,15 +53,15 @@ app.get('*', (req, res) => {
    const theme = createMuiTheme({
      palette: {
        primary: {
-       light: '#52c7b8',
-       main: '#009688',
-       dark: '#00675b',
-       contrastText: '#fff',
+        light: '#5281c7',
+        main: '#005f96',
+        dark: '#003067',
+        contrastText: '#fff',
      },
      secondary: {
-       light: '#ffd95b',
-       main: '#ffa726',
-       dark: '#c77800',
+      light: '#5281c7',
+      main: '#005f96',
+      dark: '#003067',
        contrastText: '#000',
      },
        openTitle: teal['700'],
