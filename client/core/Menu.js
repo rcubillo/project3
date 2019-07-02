@@ -21,12 +21,10 @@ const Menu = withRouter(({history}) => (
       <Typography type="title" color="inherit">
         NashBook
       </Typography>
-      <Link to="/">
-        <IconButton aria-label="Home" style={isActive(history, "/")}>
-          <HomeIcon/>
-        </IconButton>
-      </Link>
-     
+        <Link to="/">
+            <Button style={isActive(history, "/")}>Home
+            </Button>
+          </Link>
       {
         !auth.isAuthenticated() && (<span>
           <Link to="/signup">
