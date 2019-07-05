@@ -2,11 +2,11 @@
 
 ### Overview
 
-There are a lot of apps and websites in the market serving several different audiences. We have Facebook, LinkedIn, YouTube, Twitter, Instagram.
+There are a lot of apps and websites on the market serving several different audiences. We have Facebook, LinkedIn, YouTube, Twitter, Instagram.
 
-In fact, the universe of people’s interests, occupations, and hobbies is much wider and more sophisticated. There will always be room for another platform to unite people that have a common devotion.
+In fact, the universe of people’s interests, occupations, and hobbies is much wider and more sophisticated than it has ever been. There will always be room for another platform to unite people that have a common devotion.
 
-This is an application for users of all ages to find friends, share whatever they have in mind, and watch their favorite YouTube videos.
+This is an application for users of all ages to find friends, share whatever they have on their minds, and watch their favorite YouTube videos.
 
 ### Technologies
 
@@ -30,14 +30,14 @@ This is an application for users of all ages to find friends, share whatever the
 
 ## How this app works
 
-  1. Whenever a user visits this site, the user will be redirect to the homepage.
+  1. Whenever a user visits this site, the user will be redirected to the homepage.
   
-  2. The user will have two options: sign in or sign up. For the sign up, the user will need to enter a a name, email and password. For the sign in option, user will need an email and password. It those are incorrect, there will be a message that says "Email and password don't match."
+  2. The user will have two options: sign in or sign up. For the sign up, the user will need to enter a name, email and password. For the sign in option, user will need an email and password. If those are incorrect, there will be a message that says "Email and password don't match."
   
- 3. After the user sign in, the navigation menu will show up a few options:
+ 3. After the user signs in, the navigation menu will show a few options:
  ```sh
-  - Home: Here is where users can find the newsfeed, where they can post new comments, where users can see other comments from other users, and where users can see other users and see their profile or friend them.
-  - My Profile: It will have the users name, and the email, the date when the user joined the app, the different posts, the people he is following and the people that follows him.
+  - Home: Here is where users can find the newsfeed, where they can post comments, where they can see comments from other users, and where they can connect with one another.
+  - My Profile: It will have the user's name and email, the date when the user joined the app, and the posts they have made. They will also be able to see the people they are following, and the people that follow them.
   - Videos: Where the user can search for youtube videos.
 ```
   
