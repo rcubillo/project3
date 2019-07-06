@@ -50,6 +50,6 @@ All contributions and suggestions are welcome! For direct contributions, please 
 Full-stack Web Software Developers
    
  * :email: E-mail: ronaldcubillo92@gmail.com
- * :email: E-mail: mo shire
+ * :email: E-mail: shire625@gmail.com
 
 
