@@ -8,6 +8,9 @@ In fact, the universe of people’s interests, occupations, and hobbies is much 
 
 This is an application for users of all ages to find friends, share whatever they have on their minds, and watch their favorite YouTube videos.
 
+[![IMAGE ALT TEXT HERE](client/pic/pic1.png)](https://youtu.be/zkeYNlQDN5w)
+
+
 ### Technologies
 
 ```sh
