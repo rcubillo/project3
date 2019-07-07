@@ -21,6 +21,7 @@ This is an application for users of all ages to find friends, share whatever the
    5. Semantic-UI
    6. Express
    7. YouTube API
+   8. Cookie parser, Crypto
    
 ```
 
